@@ -3,6 +3,9 @@
 ## Development
 To start dev servers. First build the server, start watching the on client and the run the server
 
+#### Install Dependencies
+`npm install`
+
 #### Build Server
 `npm run build-server`
 
