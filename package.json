@@ -9,7 +9,8 @@
     "build-client": "webpack --config webpack.client.config.js --mode production",
     "build-server": "webpack --config webpack.server.config.js --mode production",
     "watch-client": "webpack --config webpack.client.config.js --mode development --watch",
-    "watch-server": "webpack --config webpack.server.config.js --mode development --watch"
+    "watch-server": "webpack --config webpack.server.config.js --mode development --watch",
+    "run-dev-server": "nodemon dist/server.js"
   },
   "keywords": [],
   "author": "",
