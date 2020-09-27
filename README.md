@@ -4,6 +4,11 @@
 To start dev servers. First build the server, start watching the on client and the run the server
 
 #### Install Dependencies
+
+##### MongoDB
+Install Community Server of MongoDB
+
+##### Node JS
 `npm install`
 
 #### Build Server
