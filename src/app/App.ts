@@ -4,11 +4,14 @@ import connect from './Db';
 import { TodoRouter } from './TodoController';
 import * as path from 'path';
 
+const morgan = require('morgan');
+
 const app: Application = express();
 const port: Number = 5000 || process.env.PORT;
 
 connect('mongodb://localhost:27017/todos');
 
+app.use(morgan({combined: true}))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

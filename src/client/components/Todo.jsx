@@ -14,7 +14,8 @@ const todoStyle = {
     padding: '10px 0px',
     display: 'flex',
     flexDirection: 'row',
-    lineHeight: '36px'
+    lineHeight: '36px',
+//    borderBottom: '1px solid #aaa'
 };
 
 const defTodoTextStyle = {

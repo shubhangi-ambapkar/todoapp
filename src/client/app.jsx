@@ -35,10 +35,13 @@ class App extends React.Component {
     }
 }
 
+
+/* REDUX - THUNK */
 const store = createStore(reducers, applyMiddleware(ReduxThunk));
 
 // Get Initial State
 store.dispatch(fetchTodos());
+/* REDUX - THUNK */
 
 let rootComponent = document.getElementById('root');
 ReactDom.render(<Provider store={store}>

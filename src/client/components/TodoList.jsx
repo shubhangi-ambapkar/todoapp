@@ -137,7 +137,8 @@ const mapStateToProps = (state) => {
     return {
         todos: state.todoApp.todos,
         fetching: state.todoApp.fetching,
-        filter: state.todoApp.filter
+        filter: state.todoApp.filter,
+        completeState: state
     };
 };
 

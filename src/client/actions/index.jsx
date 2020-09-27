@@ -20,6 +20,8 @@ export const addTodos = (text) => {
         dispatch({ type: 'PRE_ADD_TODO' });
         return Axios.post(TODO_BASE_URL, todo).then(() => {
             return dispatch(fetchTodos());
+        }).catch((err) => {
+            return dispatch({type: 'ERR_ADD_TODO', err});
         });
     };
 };

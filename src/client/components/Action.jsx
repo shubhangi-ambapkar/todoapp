@@ -16,8 +16,8 @@ class ActionComponent extends React.Component {
         return (
             <div className="actions" style={actionsStyle}>
                 <Button style={buttonStyle} color="primary" onClick={this.props.showAll}>Show All</Button>
-                <Button style={buttonStyle} color="primary" onClick={this.props.showCompleted}>Show Pending</Button>
-                <Button style={buttonStyle} color="primary" onClick={this.props.showPending}>Show Completed</Button>
+                <Button style={buttonStyle} color="primary" onClick={this.props.showPending}>Show Pending</Button>
+                <Button style={buttonStyle} color="primary" onClick={this.props.showCompleted}>Show Completed</Button>
             </div>
         );
     }

@@ -27,6 +27,14 @@ To build production
 
 `npm run build-client`
 
+## API
+
+1. GET /api/todo : Get all todos
+2. POST /api/todo : Add new todo
+3. GET /api/todo/:id : Get todo details
+4. POST /api/todo/:id : Get todo details
+5. DELETE /api/todo/:id : Delete todo
+
 
 # References
 1. https://reactjs.org/tutorial/tutorial.html
